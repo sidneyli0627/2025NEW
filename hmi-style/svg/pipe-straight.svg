@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <defs>
+    <linearGradient id="pipeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b9cbd9"/>
+      <stop offset="50%" stop-color="#9fb6c7"/>
+      <stop offset="100%" stop-color="#879dac"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="18" width="316" height="44" rx="10" fill="url(#pipeGrad)" stroke="#6e8799" stroke-width="3"/>
+  <rect x="36" y="18" width="6" height="44" fill="#6e8799" opacity="0.35"/>
+  <rect x="278" y="18" width="6" height="44" fill="#6e8799" opacity="0.35"/>
+  <rect x="0" y="0" width="320" height="80" fill="none"/>
+</svg>

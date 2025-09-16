@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <defs>
+    <linearGradient id="ductGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9e4ec"/>
+      <stop offset="60%" stop-color="#c5d6e2"/>
+      <stop offset="100%" stop-color="#acbecb"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="18" width="316" height="44" rx="6" fill="url(#ductGrad)" stroke="#8aa2b3" stroke-width="2.5"/>
+  <g opacity=".35" fill="#8aa2b3">
+    <rect x="46" y="18" width="4" height="44"/>
+    <rect x="90" y="18" width="4" height="44"/>
+    <rect x="134" y="18" width="4" height="44"/>
+    <rect x="178" y="18" width="4" height="44"/>
+    <rect x="222" y="18" width="4" height="44"/>
+    <rect x="266" y="18" width="4" height="44"/>
+  </g>
+  <rect x="0" y="0" width="320" height="80" fill="none"/>
+</svg>
