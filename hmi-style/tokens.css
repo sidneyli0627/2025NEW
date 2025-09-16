@@ -1,0 +1,35 @@
+:root {
+  --hmi-bg: #e9eef3;
+  --hmi-panel: #ffffff;
+  --hmi-line: #6a7a89;
+  --hmi-line-strong: #3b4752;
+  --hmi-pipe: #9fb6c7;
+  --hmi-pipe-edge: #6e8799;
+  --hmi-duct: #c5d6e2;
+  --hmi-duct-edge: #8aa2b3;
+  --hmi-chimney: #a1a8b5;
+  --hmi-chimney-edge: #6b7380;
+  --hmi-accent: #2aa1ff;
+  --hmi-shadow: rgba(0,0,0,0.12);
+
+  --state-normal: #22c55e;
+  --state-warning: #f59e0b;
+  --state-alarm: #ef4444;
+}
+
+.hmi-shadow {
+  filter: drop-shadow(0 1px 0.5px var(--hmi-shadow)) drop-shadow(0 4px 8px var(--hmi-shadow));
+}
+
+.hmi-stroke {
+  stroke: var(--hmi-line);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.hmi-metal {
+  fill: url(#metalGrad);
+  stroke: var(--hmi-line-strong);
+}
+
